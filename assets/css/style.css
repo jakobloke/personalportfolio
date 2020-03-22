@@ -4,16 +4,74 @@
     box-sizing: border-box;
 }
 
-:root {
-
-}
-
-body {
-    background-color: grey;
-    font-family: Helvetica, Arial, sans-serif;
+section {
+    padding: 70px;
 }
 
 header {
-    background-color: darkgrey;
+    padding: 20px 35px;
+    background-color: gray;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+}
+
+header h1 {
+    font-weight: bold;
+    background-color: rgb(116, 213, 245);
+    padding-left: 50px;
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(83, 82, 82, 0.5);
+    color: gray;
+}
+
+header a {
+    color:rgb(116, 213, 245);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2vw;
+}
+
+.hero {
+    background-image: url("../images/hero2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    padding: 150px;
+}
+.hero h2 {
+    background-color: rgb(116, 213, 245);
+    color: gray;
+    font-size: 2.5vw;
+}
+
+.welcome {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.main-page {
+    background-color: lightgray;
 }
