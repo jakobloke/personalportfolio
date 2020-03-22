@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+body {
+    background-color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: darkgrey;
+    display: flex;
+}
