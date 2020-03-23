@@ -271,60 +271,69 @@ header nav ul li a {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
-      }
+    }
     
       header h1 {
         width: 100%;
         text-align: center;
-      }
+    }
     
       header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
-      }
+    }
     
       header nav ul li a {
         font-size: 40px;
-      }
+    }
       .hero {
           width: 100%;
-      }
+    }
       .hero h2 {
           font-size: 26px;
-      }
+    }
       .headliner {
           display: block;
           padding-bottom: 25px;
-      }
+    }
       .service-grid-wrapper {
           border-style: none;
-      }
+    }
       .about-me p {
           border-style: none;
-      }
+    }
       .contact-me h2 {
           display: block;
           flex-wrap: nowrap;
           border-style: none;
-      }
+    }
       .service-grid-container {
           font-size: 10px;
-      }
+    }
       .service-grid-item1 h3 {
           top: 200px;
           width: 50%;
-      }
+    }
 
       .service-grid-item2 h3 {
           width: 100%;
-      }
+    }
       .service-grid-item2 h4 {
           width: 100%;
-      }
+    }
       .service-grid-item3 h3 {
           top: 75px;
           width: 100%;
-      }
-    
+    }
+      .up-next {
+        opacity: 1;
+    }
+      .run-buddy {
+          opacity: 1;
+    }
+      .horiseon {
+          opacity: 1;
+    }
+
 }
